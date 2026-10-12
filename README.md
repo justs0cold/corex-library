@@ -1,2 +1,2 @@
 # corex-library
-A modern C++ library
+A modern, actively developing C++ library

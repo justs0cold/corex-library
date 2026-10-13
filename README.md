@@ -4,7 +4,7 @@ A lightweight C++ library for compile-time type traits, macros, and utilities.
 ## Features
 * **Type Traits:** Compile-time type inspection tools.
 * **Preprocessor:** Macros for boilerplate reduction.
-* **Utility:** Helper functions
+* **Utility:** Helper functions.
 
 ### Examples
 

@@ -14,7 +14,7 @@ template <typename T> struct is_pointer<T *volatile> : true_type {};
 
 template <typename T> struct is_pointer<T *const volatile> : true_type {};
 
-template <typename T> using is_pointer_v = is_pointer<T>::value;
+template <typename T> inline constexpr bool is_pointer_v = is_pointer<T>::value;
 } // namespace corex
 
 #endif // COREX_TRAIT_IS_POINTER_HPP
